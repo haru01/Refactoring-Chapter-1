@@ -3,12 +3,11 @@ package bad.robot.refactoring.chapter1;
 
 import org.junit.jupiter.api.Test;
 
-import static com.sun.org.apache.xerces.internal.util.PropertyState.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CustomerTest {
 
-    private static final Movie THE_HULK = new Movie("The Hulk", Movie.CHILDREN);
+    private static final Movie THE_HULK = new Movie("The Hulk", Movie.CHILDRENS);
     private static final Movie IRON_MAN = new Movie("Iron Man 4", Movie.NEW_RELEASE);
     private static final Movie SPIDER_MAN = new Movie("Spiderman", Movie.REGULAR);
 

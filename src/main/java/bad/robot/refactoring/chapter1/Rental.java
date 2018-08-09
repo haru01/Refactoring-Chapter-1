@@ -1,8 +1,7 @@
 package bad.robot.refactoring.chapter1;
 
 public class Rental {
-
-    Movie movie;
+    private Movie movie;
     private int daysRented;
 
     public Rental(Movie movie, int daysRented) {
@@ -18,11 +17,4 @@ public class Rental {
         return daysRented;
     }
 
-    public double getCharge() {
-        return movie.getCharge(daysRented);
-    }
-
-    public int getFrequentRenterPoints() {
-        return movie.getFrequentRenterPoints(daysRented);
-    }
 }
